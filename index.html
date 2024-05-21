@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salim Ayam | Jasa Pemotongan</title>
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="/css/app.css" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header class="navbar-container" id="header">
+      <div class="logo">
+        <a href="#">salim.</a>
+      </div>
+      <nav class="nav-list" id="myLinks">
+        <ul>
+          <li>
+            <a class="nav-active" href="#Home" onclick="closeMenu()">Home</a>
+          </li>
+          <li><a href="#About" onclick="closeMenu()">About</a></li>
+          <li><a href="#Services" onclick="closeMenu()">Services</a></li>
+          <li><a href="#Contact" onclick="closeMenu()">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+
+    <main>
+      <!-- home -->
+      <section class="home section" id="Home">
+        <div class="home-container container">
+          <div class="home-description">
+            <h1 class="title">Temukan Ayam Kampung Pilihan di Sini</h1>
+            <p>
+              Selamat datang di tempat terpercaya untuk memenuhi kebutuhan ayam
+              kampung berkualitas terbaik Anda. Sejak puluhan tahun lalu, kami
+              telah menjadi pilihan utama bagi pecinta ayam kampung yang
+              menghargai kualitas dan kenikmatan sejati.
+            </p>
+          </div>
+          <div class="home-image">
+            <img src="/img/home-image.png" alt="jasa Pemotongan Ayam" />
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about section" id="About">
+        <div class="about-container container">
+          <div class="establish">
+            <h1>Tentang perusahaan</h1>
+            <p>
+              Salim Ayam berdiri atas semangat untuk menyediakan produk ayam
+              kampung berkualitas tinggi bagi masyarakat yang peduli akan
+              kesehatan dan keberlanjutan lingkungan. Berawal dari keinginan
+              mendukung pertanian lokal yang berkelanjutan, kami memulai
+              peternakan ayam kampung dengan standar kesejahteraan hewan yang
+              tinggi dan praktek bertani ramah lingkungan.
+            </p>
+          </div>
+          <div class="visi-misi">
+            <div class="visi">
+              <h1>Visi</h1>
+              <p>
+                Menjadi penyedia utama ayam kampung berkualitas tinggi yang
+                diakui secara nasional dan menjadi pionir dalam mendukung
+                pertanian berkelanjutan.
+              </p>
+            </div>
+            <div class="misi">
+              <h1>Misi</h1>
+              <ul>
+                <li>
+                  Memberikan pilihan sehat kepada konsumen melalui produk ayam
+                  kampung yang bebas dari bahan kimia berbahaya dan dipelihara
+                  dengan standar kesejahteraan hewan yang tinggi.
+                </li>
+                <li>
+                  Menyediakan pendapatan yang adil dan berkelanjutan bagi
+                  peternak lokal untuk mendorong pertumbuhan ekonomi di wilayah
+                  sekitar.
+                </li>
+                <li>
+                  Menyebarkan kesadaran akan pentingnya pola konsumsi yang sehat
+                  dan bertanggung jawab terhadap lingkungan melalui edukasi dan
+                  kolaborasi dengan komunitas serta lembaga terkait.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <aside class="card">
+            <img src="/img/profile.jpeg" alt="John" style="width: 100%" />
+            <div class="card-info">
+              <h1>Adhiya Nur Septio</h1>
+              <h2>CEO & Founder</h2>
+              <p>
+                " Tersedia ayam kampung sehat & berkualitas tinggi di 'Kampung
+                Sehat'. Terima kasih atas dukungan Anda yang telah dalam
+                mendukung pertanian berkelanjutan "
+              </p>
+            </div>
+            <a href="https://wa.me/6281391126817" target="_blank">
+              <button>WhatsApp</button>
+            </a>
+          </aside>
+        </div>
+      </section>
+
+      <!-- services -->
+      <section class="services section" id="Services">
+        <div class="services-container container">
+          <div class="wraper">
+            <h1 class="title">Ayam Pertenakan Kami</h1>
+            <div class="slideshow-container">
+              <div class="myslide">
+                <img class="img" src="img/1.jpg" alt="" />
+              </div>
+              <div class="myslide">
+                <img class="img" src="img/2.jpg" alt="" />
+              </div>
+              <div class="myslide">
+                <img class="img" src="img/3.jpg" alt="" />
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+          </div>
+          <div class="service">
+            <h1 class="judul">Pelayanan Dari Kami</h1>
+            <div class="pelayanan">
+              <article class="card">
+                <img src="img/card1.jpg" alt="John" style="width: 100%" />
+                <h1>Penyedia Daging Ayam</h1>
+                <p class="title">
+                  Menyediakan ayam kampung berkualitas tinggi yang dipelihara
+                  secara alami dan bebas dari bahan kimia berbahaya, siap untuk
+                  memenuhi kebutuhan konsumsi sehat keluarga Anda.
+                </p>
+              </article>
+              <article class="card">
+                <img src="img/card2.jpg" alt="John" style="width: 100%" />
+                <h1>Pemotongan Ayam</h1>
+                <p class="title">
+                  Layanan pemotongan ayam kampung yang higienis dan profesional,
+                  memastikan daging ayam yang segar dan siap diolah sesuai
+                  keinginan pelanggan.
+                </p>
+              </article>
+              <article class="card">
+                <img src="img/card3.jpg" alt="John" style="width: 100%" />
+                <h1>Penyedia Unggas Lainnya</h1>
+                <p class="title">
+                  Menyediakan berbagai jenis unggas lain seperti entok dan
+                  bebek, dengan kualitas pemeliharaan yang sama tinggi untuk
+                  menjamin kepuasan dan kesehatan konsumen.
+                </p>
+              </article>
+            </d>
+          </div>
+        </div>
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01" />
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact section" id="Contact">
+        <div class="contact-container container">
+          <div class="contact-us">
+            <h1>Contact Us</h1>
+            <form action="submit_form.php" method="post">
+              <label for="name">Nama Lengkap:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Pesan:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+
+          <div class="address">
+            <div class="contact-list">
+              <div class="dbox">
+                <div class="icon">
+                  <span class="fa fa-map-marker"></span>
+                </div>
+                <div class="text">
+                  <p><span>Alamat:</span> JL. Kyai Suyuti No 01 Planjan</p>
+                </div>
+              </div>
+              <div class="dbox">
+                <div class="icon">
+                  <span class="fa fa-whatsapp"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>Phone:</span>
+                    081391126817
+                  </p>
+                </div>
+              </div>
+              <div class="dbox">
+                <div class="icon">
+                  <span class="fa fa-envelope"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>Email:</span>
+                    adhiyans1000@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="#">salim.</a>
+        </div>
+        <div class="footer-address">
+          <h4>Kantor Pusat</h4>
+          <p>
+            Jl. Kyai Suyuti No 01 Desa Planjan, Kecamatan Kesugihan, Kabupaten
+            Cilacap, Jawa Tengah
+          </p>
+        </div>
+        <div class="footer-menu">
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social">
+            <a href="https://www.facebook.com/adhiya.nur" target="_blank">
+              <span class="fa fa-facebook"></span>
+            </a>
+            <a href="https://www.instagram.com/adhiya.nur/" target="_blank">
+              <span class="fa fa-instagram"></span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adhiya-nur-septio-7b0b3b1b0/"
+              target="_blank"
+            >
+              <span class="fa fa-linkedin"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/slider.js"></script>
+    <script></script>
+  </body>
+</html>
